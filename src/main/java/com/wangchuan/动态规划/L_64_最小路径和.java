@@ -2,11 +2,6 @@ package com.wangchuan.动态规划;
 
 public class L_64_最小路径和 {
 
-    public static void main(String[] args) {
-        int[][] arr = {{1,2,3},{4,5,6}};
-        System.out.println(arr.length);
-        System.out.println(arr[0].length);
-    }
     public int minPathSum(int[][] grid) {
         int row = grid.length;
         int column = grid[0].length;
