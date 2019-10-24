@@ -2,6 +2,11 @@ package com.wangchuan.动态规划;
 
 public class L_5_最长回文串 {
 
+    /**
+     * 未解决
+     * @param s
+     * @return
+     */
     public String longestPalindrome(String s) {
         int size = s.length();
         boolean[][] f = new boolean[size][size];
